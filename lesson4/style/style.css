@@ -1,0 +1,9 @@
+img{
+    max-width: 200px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
