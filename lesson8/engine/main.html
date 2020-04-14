@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+<ul>
+    <li><a href="/">Главная</a></li>
+    <li><a href="?p=goods">Все товары</a></li>
+    <li>
+        <a href="?p=basket">
+            Корзина <span id="basket">{{COUNT}}</span>
+        </a>
+    </li>
+    <li><a href="?p=auth">Личный кабинет</a></li>
+</ul>
+    <p style="color: red">{{MSG}}</p>
+    {{CONTENT}}
+</body>
+</html>
